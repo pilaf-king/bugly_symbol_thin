@@ -9,9 +9,7 @@ bugly的符号表分为2种，一种是`可读符号表`，另一种是`不可�
 # 如何使用
 
 使用前需要确保安装Python3
-准备好物料，bugly的可读符号表
-
-![](https://upload-images.jianshu.io/upload_images/4642217-d5bf2e6cf7b774e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+准备好物料，bugly的可读符号表：xxxx.symbol.zip
 
 ###### 注意，这里的符号表的zip包是指通过 buglySymboliOS.jar 处理后的zip文件，不是dSYM文件zip压缩后的文件
 
