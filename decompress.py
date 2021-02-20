@@ -68,11 +68,12 @@ def occurred_symbols(line):
     global iscompressed
     if line.startswith('Symbol: compressed'):
         iscompressed = True
-    global decompressed
-    decompressed = decompressed + line + '\n'
-    global occurredsymbols
-    if line.startswith('Symbol table:'):
-        occurredsymbols = True
+    else:
+        global decompressed
+        decompressed = decompressed + line + '\n'
+        global occurredsymbols
+        if line.startswith('Symbol table:'):
+            occurredsymbols = True
 
 def decompresse_func(line):
 
