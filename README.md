@@ -29,4 +29,11 @@ python3 decompress.py -i <经过上步压缩的zip路径> -o <输出路径>
 
 ![image.png](https://upload-images.jianshu.io/upload_images/4642217-2a3b013573e996d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+# 效果
+在数据量较大的情况下，zip体积能压缩40%。从一定程度上可以减少对存储空间和数据传输的依赖。
+|  优化前   | 优化后  |
+|  ----  | ----  |
+| 52.7MB  | 31.2MB |
+
+
 
